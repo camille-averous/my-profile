@@ -1,0 +1,80 @@
+body {
+	background-color: #F8F8F8;
+	color: rgb(30, 30, 30);
+	font-family: Lora, serif;
+	font-size: 17px;
+	font-weight: lighter;
+	text-align: center;
+}
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+	color: orange;
+	font-family: Montserrat;
+	font-weight: 100;
+	letter-spacing: 10px;
+	font-size: 32px; 
+	text-transform: uppercase;
+}
+h2 {
+    color: Orange ;
+    font-size: 20px;
+    font-weight: lighter;
+    font-weight: 500;
+}
+a {
+    font-family: lola , sans-serif;
+    text-decoration: none;
+    color: #b7472a;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+.container {
+width: 600px;
+margin: 50px auto;
+}
+.card-white {
+border-radius: 4px;
+background-color: #F1D6AB;
+text-align: center;
+margin: 20px 0px;
+padding: 40px;
+box-shadow: 0px 10px 30px rgba(0,0,0,0.1)
+}
+ 
+.img-circle {
+border-radius: 50%;
+}
+.btn-blue {
+background-color: red;
+color: white;
+ padding: 15px 20px;
+border-radius: 4px;
+}
+.btn-blue:hover {
+background-color: green;
+color: black;
+}
+ 
+.list-inline {
+list-style: none;
+padding-left: 0px;
+}
+.list-inline li {
+display: inline;
+padding: 20px;
+}
+.list-inline i {
+font-size: 50px;
+color: #af460f;
+}
+.list-inline i:hover {
+color: yellow;
+}
+#introduction p {
+margin-bottom: 40px;
+}
